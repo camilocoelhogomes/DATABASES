@@ -1,0 +1,2 @@
+use('test')
+db.getCollection('auth').findOne({ authType: 'ROOT_ADMIN', orgUri: 'imobiliriaMarques' })
